@@ -7,8 +7,15 @@ namespace Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void T01_더하기()
         {
+            int a = 5;
+            int b = 5;
+            int c = a + b;
+
+            int expected = 10;
+
+            Assert.AreEqual(expected, c, "더하기 연산 실패!");
         }
     }
 }
