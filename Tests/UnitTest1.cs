@@ -17,5 +17,17 @@ namespace Tests
 
             Assert.AreEqual(expected, c, "더하기 연산 실패!");
         }
+
+        [TestMethod]
+        public void T02_빼기()
+        {
+            int a = 10;
+            int b = 5;
+            int c = a - b;
+
+            int expected = 5;
+
+            Assert.AreEqual(expected, c, "빼기 연산 실패!");
+        }
     }
 }
