@@ -39,6 +39,7 @@ namespace Tests
             {
                 result += i;
             }
+
             int expected = 55;
 
             Assert.AreEqual(expected, result, "더하기 연산 실패!");
